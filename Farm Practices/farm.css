@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------------- FARM PRACTICES ---------------------- */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("img/fruits.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px ;
+    padding-right: 10px ;
+    
+    }
+    .farm-row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+    }
+    .farm-col{
+    flex-basis: 45%;
+    }
+    .farm-col h1{
+    color: #fff;
+    font-size: 100px;
+    }
+    .farm-col p{
+    color: #fff;
+    font-size: 10px;
+    line-height: 15px;
+    }
+    .farm-col button{
+    color: #000;
+    width: 180px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline: none;
+    }
+    .farm-col button:hover{
+            color: #fff;
+            background-color: #009688;
+            transition: 1s;
+            }
+    .box{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    }
+    .box-1{background-image: url("img/oranges.jpg");}
+    .box-2{background-image: url("img/nyanya.jpg");}
+    .box-3{ background-image: url("img/cabbage.jpg");}
+    .box-4{background-image: url("img/grapes.jpg");}
+    
+    .box:hover{
+    transform: translateY(-10px);
+    }
+    .box h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    }
+    .box p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+    }
